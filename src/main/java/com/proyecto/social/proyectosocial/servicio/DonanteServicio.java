@@ -13,11 +13,13 @@ public class DonanteServicio {
 
     @Autowired
     private DonanteRepository donanteRepository;
+    //comentario de prueba
 
     // Obtener todos los donantes
     public List<Donante> obtenerTodos() {
         return donanteRepository.findAll();
     }
+
 
     // Obtener un donante por ID
     public Optional<Donante> obtenerPorId(int id) {
