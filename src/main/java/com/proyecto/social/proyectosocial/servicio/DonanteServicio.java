@@ -15,6 +15,7 @@ public class DonanteServicio {
     private DonanteRepository donanteRepository;
     //comentario de prueba
 
+
     // Obtener todos los donantes
     public List<Donante> obtenerTodos() {
         return donanteRepository.findAll();
