@@ -17,6 +17,7 @@ public class DonanteServicio {
 
 
     // Obtener todos los donantes
+
     public List<Donante> obtenerTodos() {
         return donanteRepository.findAll();
     }
